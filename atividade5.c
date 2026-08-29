@@ -1,19 +1,18 @@
-#include <stdio.h> 
-int main() {
+#include <stdio.h>
+int main () {
 
-    float salárioAtual, percentual, aumento, novoSalário;
+    float salarioAtual, percentual, aumento, novoSalario;
 
     printf("Digite o salário atual: ");
-    scanf("%f", &salárioAtual);
-    printf("Digite o percentual: ");
+    scanf("%f", &salarioAtual);
+    printf("Digite o percentual de aumento: ");
     scanf("%f", &percentual);
-    
-    aumento = (salárioAtual * percentual) / 100;
-    novoSalário = salárioAtual + aumento;
-    
-    printf("O valor de aumento foi de: %.2f\n", aumento);
-    printf("O novo salário é de: %.2f", novoSalário);
-    
+
+    aumento = (salarioAtual * percentual) / 100; 
+    novoSalario = salarioAtual + aumento;
+
+    printf("O aumento foi de: %.2f\n", aumento);
+    printf("Novo salário: %.2f", novoSalario);
+
     return 0;
 }
-
