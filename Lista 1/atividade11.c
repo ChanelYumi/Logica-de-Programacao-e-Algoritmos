@@ -9,7 +9,7 @@ c) A raiz quadrada do número digitado. d) A raiz cúbica do número digitado
 #include <math.h>
 int main() {
 
-    float numero, numeroQuadrado, numeroCubo, raizQuadrada, raaizCubica; 
+    float numero, numeroQuadrado, numeroCubo, raizQuadrada, raizCubica; 
 
     printf("Digite um número maior que 0: ");
     scanf("%f", &numero);
