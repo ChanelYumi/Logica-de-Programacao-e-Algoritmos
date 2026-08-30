@@ -1,3 +1,8 @@
+/*
+Faça um programa que receba o salário-base de um funcionário, calcule e
+mostre seu salário a receber, Sabendo-se que esse funcionário tem gratificação de R$ 50,00 e paga imposto de 10% sobre o salário-base.
+*/
+
 #include <stdio.h>
 int main() {
 

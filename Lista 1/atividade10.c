@@ -1,3 +1,7 @@
+/*
+Faça um programa que calcule e mostre a área de um círculo.                                    
+*/
+
 #include <stdio.h>
 int main() {
 

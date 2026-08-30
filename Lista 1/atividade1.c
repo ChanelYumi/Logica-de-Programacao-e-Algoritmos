@@ -1,3 +1,13 @@
+/*
+1. Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.
+Solução:
+DECLARE n1, n2, n3, n4, soma NUMERICO 
+LEIA n1, n2, n3, n4
+soma= n1+n2+n3+n4
+ESCREVA soma
+FIM_ALGORITMO.
+*/
+
 #include <stdio.h>
 int main() {
     int n1, n2, n3, n4, soma;

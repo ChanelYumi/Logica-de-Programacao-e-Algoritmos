@@ -1,3 +1,7 @@
+/*
+Faça um programa que receba três notas, calcule e mostre a média aritmética entre elas.
+*/
+
 #include <stdio.h>
 int main(void) {
     float n1, n2, n3, media;
