@@ -10,15 +10,15 @@ int main () {
     printf("Digite o primeiro número: ");
     scanf("%d", &numero1);
     printf("Digite o segundo número: ");
-    scanf("%d%", &numero2);
+    scanf("%d", &numero2);
     
     while (numero2 == numero1) {
     // Enquanto numero2 for igual ao numero1...
         printf("Número já digitado. Por favor, digite outro número: ");
-        scanf("%d", numero2);
+        scanf("%d", &numero2);
     }
     printf("Digite o terceiro número: ");
-    scanf("%d%", &numero3);
+    scanf("%d", &numero3);
 
     while (numero3 == numero1 || numero3 == numero2) {
     // Enquanto a condição for verdadeira,

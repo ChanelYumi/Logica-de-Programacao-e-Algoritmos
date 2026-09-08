@@ -26,18 +26,18 @@ int main() {
 
     if (codigo == 1) {
         valorFinal = preco - (preco * 10 / 100);
-        printf("Valor final com desconto de 10%, é de: %.2f", valorFinal);
+        printf("Valor final com desconto de 10%%, é de: %.2f", valorFinal);
     }
     else if (codigo == 2) {
         valorFinal = preco - (preco * 15 / 100);
-        printf("Valor final com desconto de 15%, é de: %.2f", valorFinal);
+        printf("Valor final com desconto de 15%%, é de: %.2f", valorFinal);
     }
     else if (codigo == 3) { 
-        printf("Valor final (sem desconto), é de: %.2f", &preco);
+        printf("Valor final (sem desconto), é de: %.2f", preco);
     }
     else if (codigo == 4) {
         valorFinal = preco + (preco * 10 / 100);
-        printf("Valor final com acréscimo de 10%, é de: %.2f", &valorFinal);
+        printf("Valor final com acréscimo de 10%%, é de: %.2f", valorFinal);
 
     }
 
