@@ -1,4 +1,4 @@
-/*(
+/*
 Elabore um algoritmo que calcule o valor a ser pago por um produto, 
 considerando o preço normal da etiqueta e a condição de pagamento escolhida.
 Utilize os códigos abaixo:
@@ -11,7 +11,7 @@ O algoritmo deve ler:
 • o preço do produto;
 • o código da condição de pagamento;
 e apresentar o valor final a ser pago.
-)*/
+*/
 
 #include <stdio.h>
 int main() {
