@@ -13,7 +13,7 @@ peso ideal = (62,1 × altura) - 44,7
 int main () {
     
     char sexo[20];
-    float altura, pesoIdealFem, pesoIdealMas;
+    float altura, pesoIdeal;
 
     printf("Digite sua altura: ");
     scanf("%f", &altura);
@@ -21,12 +21,12 @@ int main () {
     scanf("%s", sexo);
 
     if (strcmp(sexo, "feminino") == 0) {
-        pesoIdealFem = (62.1 * altura) - 44.7;
-        printf("O seu peso ideal é: %.2f", pesoIdealFem);
+        pesoIdeal = (62.1 * altura) - 44.7;
+        printf("O seu peso ideal é: %.2f", pesoIdeal);
     }
     else {
-        pesoIdealMas = (72.7 * altura) - 58;
-        printf("O seu peso ideal é: %.2f", pesoIdealMas);
+        pesoIdeal = (72.7 * altura) - 58;
+        printf("O seu peso ideal é: %.2f", pesoIdeal);
     }
 
     return 0;
