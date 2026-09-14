@@ -4,15 +4,21 @@ VERDADEIROS ou se ambos são FALSOS.
 */
 
 #include <stdio.h>
+#include <stdbool.h>
 int main() {
 
     int numero1, numero2;
+    bool valor1, valor2;
 
-    printf("Digite o primeiro número: ");
+    //Primeiro mreceber os valores inteiros
+    printf("Digite o primeiro número (1 ou 0): ");
     scanf("%d", &numero1);
-    printf("Digite o segundo número: ");
+    printf("Digite o segundo número (1 ou 0): ");
     scanf("%d", &numero2);
-
+ 
+    //Transferir os valores inteiros para a variável boleana
+    valor1 = numero1;
+    valor2 = numero2;
     if (numero1 && numero2) {
     // Se o numero1 for verdadeiro E o numero2 for verdadeiro
         printf("Ambos são verdadeiros. ");
